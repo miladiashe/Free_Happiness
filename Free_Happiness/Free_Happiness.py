@@ -16,4 +16,4 @@ url = baseurl + quote_plus(plusurl)
 
 driver = webdriver.Chrome()
 driver.get(url)
-# 와들디 살려줘
+# 오늘도아무것도몬했둥....
