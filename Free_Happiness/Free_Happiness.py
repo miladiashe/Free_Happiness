@@ -22,3 +22,5 @@ soup = BeautifulSoup(html)
 insta = soup.select('.v1Nh3.kIKUG._bz0w')
 
 print(insta)
+
+driver.close
