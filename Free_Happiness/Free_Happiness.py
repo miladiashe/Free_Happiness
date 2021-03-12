@@ -20,5 +20,7 @@ driver.get(url)
 html = driver.page_source
 soup = BeautifulSoup(html)
 
+insta = soup.select('.v1Nh3')
+
 # 오늘도아무것도몬했둥.... ㄱ만ㄹ
 # 배아파
