@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 
-print("와들디 볼살 만질래")
 # 와들디짤 긁기
 # 아기 볼살을 상징하는 해시태그 선별
 # 볼탱탱 볼빵빵 아기볼살 조카볼살 등등
@@ -22,5 +21,4 @@ soup = BeautifulSoup(html)
 
 insta = soup.select('.v1Nh3.kIKUG._bz0w')
 
-# 오늘도아무것도몬했둥.... ㄱ만ㄹ
-# 배아파
+print(insta)
